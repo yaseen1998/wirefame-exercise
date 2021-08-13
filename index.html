@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>design</title>
     <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -18,8 +19,23 @@
         <a href="">about</a>
         </nav>
     </header>
-    <main>
-        <img src= "https://via.placeholder.com/960x450/000000">
+    <main class="w3-content w3-display-container" >
+      <div class = "slide">        <img  src= "" id="image" >
+      </div>
+        <img  src= "" id="image" >
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+        <div class = "navigation-manual"
+          >
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+      </div>
+        <!-- <button class="w3-button w3-black w3-display-left" >&#10094;</button>
+        <button class="w3-button w3-black w3-display-right" >&#10095;</button> -->
     </main>
     <section>
         <img src="https://via.placeholder.com/300x375/000000" alt="">
@@ -42,7 +58,8 @@
             </p>
         </article>
       </div>
-      <footer> &copy;2021</footer>
-      
+      <footer>  &copy;2021</footer>
+      <script src="app.js"></script>
+
 </body>
 </html>
